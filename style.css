@@ -24,14 +24,6 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'OpenSansItalic';
-    src: url(assets/fonts/OpenSansItalic/OpenSansItalic.woff2) format('woff2'), 
-         url(assets/fonts/OpenSansItalic/OpenSansItalic.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'Vollkorn-Semibold';
@@ -39,15 +31,6 @@
          url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff) format('woff');
     font-style: italic;
     font-weight: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Vollkorn-Bold';
-    src: url(assets/fonts/Vollkorn-Bold/Vollkorn-Bold.woff2) format('woff2'), 
-    	 url(assets/fonts/Vollkorn-Bold/Vollkorn-Bold.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
     font-display: swap;
 }
 
@@ -93,27 +76,11 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Barlow-Extrabold';
-    src: url(assets/fonts/Barlow-Extrabold/Barlow-Extrabold-webfont.woff2) format('woff2'), 
-         url(assets/fonts/Barlow-Extrabold/Barlow-Extrabold-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'SourceSansPro-Regular';
     src: url(assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff2) format('woff2'), 
          url(assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SourceSansPro-Semibold';
-    src: url(assets/fonts/SourceSansPro-Semibold/SourceSansPro-Semibold.woff2) format('woff2'), 
-         url(assets/fonts/SourceSansPro-Semibold/SourceSansPro-Semibold.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -360,7 +327,7 @@ header.fl-hdr {
 }
 .special-offer-dsc {
     position: relative;
-    padding: 65px 20px 80px 0;
+    padding: 70px 20px 80px 0;
     z-index: 3;
     color: #fff;
 }
@@ -435,6 +402,9 @@ header.fl-hdr {
 .fl-content-sec-4-dsc{
     padding-top: 10px;
 }
+.fl-content-4-btm-sec{
+    padding-bottom: 25px;
+}
 
 .fl-content-sec-5-wrp {
     background: #1195ca;
@@ -465,6 +435,7 @@ header.fl-hdr {
 .bs-wrok-5-btm-dsc {
     color: #fff;
     padding-right: 45px;
+    margin-top: -10px;
 }
 .bs-wrok-5-btm-img{
     margin-left: -45px;
@@ -497,7 +468,7 @@ header.fl-hdr {
 .fl-content-6-fights-wrp ul li img {
     position: absolute;
     left: 20px;
-    bottom: -45px;
+    bottom: -50px;
     z-index: 3;
 }
 
@@ -1527,6 +1498,9 @@ header.fl-hdr {
     }
     .fl-content-9-img-tp {
         margin-left: 0;
+    }
+    .bs-wrok-5-btm-dsc {
+        margin-top: 0;
     }
 
 
