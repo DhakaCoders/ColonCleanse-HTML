@@ -1,127 +1,115 @@
 @font-face {
-  font-family: 'calisMTbol';
-  src: url('calisMTbol/calisMTbol.eot?#iefix') format('embedded-opentype'),
-    url('calisMTbol/calisMTbol.otf')  format('opentype'),
-	url('calisMTbol/calisMTbol.woff') format('woff'),
-	url('calisMTbol/calisMTbol.ttf')  format('truetype'), 
-	url('calisMTbol/calisMTbol.svg#calisMTbol') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calisto MT';
-    src: url('Calis-MTBol/CalisMTBol.eot');
-    src: url('Calis-MTBol/CalisMTBol.eot?#iefix') format('embedded-opentype'),
-        url('Calis-MTBol/CalisMTBol.woff2') format('woff2'),
-        url('Calis-MTBol/CalisMTBol.woff') format('woff'),
-        url('Calis-MTBol/CalisMTBol.ttf') format('truetype'),
-        url('Calis-MTBol/CalisMTBol.svg#CalisMTBol') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: 'Barlow-Medium';
-  src: url('Barlow-Medium/Barlow-Medium.eot?#iefix') format('embedded-opentype'),
-    url('Barlow-Medium/Barlow-Medium.otf')  format('opentype'),
-	url('Barlow-Medium/Barlow-Medium.woff') format('woff'),
-	url('Barlow-Medium/Barlow-Medium.ttf')  format('truetype'), 
-	url('Barlow-Medium/Barlow-Medium.svg#Barlow-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: 'Barlow-Bold';
-  src: url('Barlow-Bold/Barlow-Bold.eot?#iefix') format('embedded-opentype'),
-    url('Barlow-Bold/Barlow-Bold.otf')  format('opentype'),
-	url('Barlow-Bold/Barlow-Bold.woff') format('woff'),
-	url('Barlow-Bold/Barlow-Bold.ttf')  format('truetype'), 
-	url('Barlow-Bold/Barlow-Bold.svg#Barlow-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('Barlow-ExtraBold/Barlow-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('Barlow-ExtraBold/Barlow-ExtraBold.otf')  format('opentype'),
-	url('Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff'),
-	url('Barlow-ExtraBold/Barlow-ExtraBold.ttf')  format('truetype'), 
-	url('Barlow-ExtraBold/Barlow-ExtraBold.svg#Barlow-ExtraBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: 'BarlowCondensed-Bold';
-  src: url('BarlowCondensed-Bold/BarlowCondensed-Bold.eot?#iefix') format('embedded-opentype'),
-    url('BarlowCondensed-Bold/BarlowCondensed-Bold.otf')  format('opentype'),
-	url('BarlowCondensed-Bold/BarlowCondensed-Bold.woff') format('woff'),
-	url('BarlowCondensed-Bold/BarlowCondensed-Bold.ttf')  format('truetype'), 
-	url('BarlowCondensed-Bold/BarlowCondensed-Bold.svg#BarlowCondensed-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'BarlowCondensed-Regular';
-    src: url('BarlowCondensed-Regular/BarlowCondensed-Regular.eot');
-    src: url('BarlowCondensed-Regular/BarlowCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('BarlowCondensed-Regular/BarlowCondensed-Regular.woff2') format('woff2'),
-        url('BarlowCondensed-Regular/BarlowCondensed-Regular.woff') format('woff'),
-        url('BarlowCondensed-Regular/BarlowCondensed-Regular.ttf') format('truetype'),
-        url('BarlowCondensed-Regular/BarlowCondensed-Regular.svg#BarlowCondensed-Regular') format('svg');
+    font-family: 'OpenSans-Regular';
+    src: url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2) format('woff2'), 
+       url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'OswaldBold';
-  src: url('OswaldBold/OswaldBold.eot');
-  src: url('OswaldBold/OswaldBold.eot') format('embedded-opentype'),
-       url('OswaldBold/OswaldBold.woff2') format('woff2'),
-       url('OswaldBold/OswaldBold.woff') format('woff'),
-       url('OswaldBold/OswaldBold.ttf') format('truetype'),
-       url('OswaldBold/OswaldBold.svg#OswaldBold') format('svg');
-       font-weight: 700;
-      font-style: normal;
+    font-family: 'OpenSans-Semibold';
+    src: url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff2) format('woff2'), 
+         url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2) format('woff2'), 
+       url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vollkorn-Semibold';
+    src: url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff2) format('woff2'), 
+         url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff) format('woff');
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather-Black';
+    src: url(assets/fonts/Merriweather-Black/Merriweather-Black.woff2) format('woff2'), 
+       url(assets/fonts/Merriweather-Black/Merriweather-Black.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url(assets/fonts/Barlow-Bold/barlow-bold-webfont.woff2) format('woff2'), 
+       url(assets/fonts/Barlow-Bold/barlow-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff2) format('woff2'), 
+         url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BarlowCondensed-Bold';
+    src: url(assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold.woff2) format('woff2'), 
+         url(assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(assets/fonts/Barlow-Medium/Barlow-Medium.woff2) format('woff2'), 
+         url(assets/fonts/Barlow-Medium/Barlow-Medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url(assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff2) format('woff2'), 
+         url(assets/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-Semibold";
+  src: url("assets/fonts/SourceSansPro-Semibold/SourceSansPro-Semibold.woff") format("woff"),
+    url("assets/fonts/SourceSansPro-Semibold/SourceSansPro-Semibold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
+@font-face {
+    font-family: 'OswaldBold';
+    src: url(assets/fonts/OswaldBold/OswaldBold.woff2) format('woff2'), 
+         url(assets/fonts/OswaldBold/OswaldBold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url("assets/fonts/PTSerif-Bold/PTSerif-Bold.woff") format("woff"),
+    url("assets/fonts/PTSerif-Bold/PTSerif-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
